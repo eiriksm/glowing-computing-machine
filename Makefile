@@ -9,5 +9,6 @@ ci:
 	./node_modules/istanbul/lib/cli.js check-coverage --statements=100 --branches=100 functions=100 --lines=100
 	browserify test/* -o browser.js
 	karma start karma.conf.js --browsers=PhantomJS
+	./node_modules/.bin/jshint index.js
 
 .PHONY: test test-cov ci
