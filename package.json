@@ -24,7 +24,8 @@
     "karma-coverage": "^0.2.6",
     "karma-mocha": "^0.1.9",
     "karma-phantomjs-launcher": "^0.1.4",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
   },
   "dependencies": {
     "lab": "^4.6.1"
