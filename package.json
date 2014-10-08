@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/eiriksm/glowing-computing-machine/issues"
   },
-  "homepage": "https://github.com/eiriksm/glowing-computing-machine"
+  "homepage": "https://github.com/eiriksm/glowing-computing-machine",
+  "devDependencies": {
+    "function-bind": "^1.0.2",
+    "istanbul": "^0.3.2",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-coverage": "^0.2.6",
+    "karma-mocha": "^0.1.9",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "lab": "^4.6.1"
+  }
 }
