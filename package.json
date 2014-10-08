@@ -4,7 +4,8 @@
   "description": "glowing-computing-machine =========================",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "ci": "make ci"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,14 @@
     "karma-mocha": "^0.1.9",
     "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "pre-commit": "0.0.9",
+    "should": "^4.0.4",
+    "supertest": "^0.14.0"
   },
   "dependencies": {
     "lab": "^4.6.1"
-  }
+  },
+  "pre-commit": [
+    "ci"
+  ]
 }
